@@ -32,4 +32,5 @@ player assignItem "ItemWatch";
 player addItem "ItemGPS";
 player assignItem "ItemGPS";
 
+[[player,0,"textures\swat_shirt.paa"],"life_fnc_setTexture",true,false] spawn life_fnc_MP;
 [] call life_fnc_saveGear;
