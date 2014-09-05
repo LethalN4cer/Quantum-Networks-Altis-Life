@@ -60,6 +60,13 @@ class CfgSounds
 		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
 		titles[] = {};
 	};
+	
+	Class siren2
+	{
+       name = "Yelp";
+       sound[] = {"\sounds\Yelp.ogg", 1.0, 1};
+       titles[] = {};
+    };
 };
 
 class CfgDebriefing
