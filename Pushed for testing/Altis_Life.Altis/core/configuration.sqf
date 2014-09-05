@@ -62,7 +62,7 @@ life_carryWeight = 0; //Represents the players current inventory weight (MUST ST
 ****** Life Variables *******
 *****************************
 */
-life_fatigue = 0.5; //Set the max fatigue limit (50%)
+life_fatigue = 0.5; 
 life_net_dropped = false;
 life_hit_explosive = false;
 life_siren_active = false;
