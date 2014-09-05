@@ -219,6 +219,7 @@ class Life_Client_Core
 		class saveGear {};
 		class loadGear {};
 		class stripDownPlayer {};
+		class fatigueReset {}; 
 	};
 	
 	class Network
@@ -373,5 +374,6 @@ class Life_Client_Core
 		class safeFix {};
 		class vehicleGarage {};
 		class gangDeposit {};
+		
 	};
 };
