@@ -12,7 +12,7 @@ private["_side","_return"];
 _side = [_this,0,civilian,[civilian]] call BIS_fnc_param;
 
 //Spawn Marker, Spawn Name, PathToImage
-switch (_side) do
+switch (_side) dosada
 {
 	case west:
 	{
