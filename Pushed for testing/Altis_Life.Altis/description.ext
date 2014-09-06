@@ -78,7 +78,7 @@ class CfgSounds
         	name = "class copSiren2"; 
 		sound[] = {"\sounds\Yelp.ogg", 1.0, 1}; 
 		titles[] = {}; 
-     }:  
+     };  
 };
 
 class CfgDebriefing
