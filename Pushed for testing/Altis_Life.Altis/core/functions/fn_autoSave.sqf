@@ -4,7 +4,7 @@
 @Edited: 5/16/14
 
 Description:
-Saves the player's gear every 10 minutes.
+Saves the player's gear every 5 minutes.
 */
 
 while {true} do {
