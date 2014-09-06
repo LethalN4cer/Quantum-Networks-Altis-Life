@@ -73,9 +73,9 @@ class CfgSounds
 		titles[] = {};
      };
 	 
-	class copSiren2 {};
+	class copSiren2 
 	{ 
-        	name = "Yelp"; 
+        	name = "class copSiren2"; 
 		sound[] = {"\sounds\Yelp.ogg", 1.0, 1}; 
 		titles[] = {}; 
      }:  
