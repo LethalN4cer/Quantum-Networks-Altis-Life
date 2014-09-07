@@ -175,6 +175,7 @@ switch (_code) do
 	
 	//F Key
 	case 33:
+<<<<<<< HEAD
 	{
 		if(playerSide in [west,independent] && vehicle player != player && !life_siren_active && ((driver vehicle player) == player)) then
 		{
@@ -204,6 +205,61 @@ switch (_code) do
 			};
 		};
 	};
+=======
+        {    if(_shift) then
+            {
+                if(playerSide == west && vehicle player != player && !life_siren2_active && ((driver vehicle player) == player)) then
+                {
+                    [] spawn
+                    {
+                        life_siren2_active = true;
+                        sleep 1.2;
+                        life_siren2_active = false;
+                    };
+                    _veh = vehicle player;
+                    if(isNil {_veh getVariable "siren2"}) then {_veh setVariable["siren2",false,true];};
+                    if((_veh getVariable "siren2")) then
+                    {
+                        titleText ["Yelp Off","PLAIN"];
+                        _veh setVariable["siren2",false,true];
+                    }
+                        else
+                    {
+                        titleText ["Yelp On","PLAIN"];
+                        _veh setVariable["siren2",true,true];
+                        [[_veh],"life_fnc_copsiren2",nil,true] spawn life_fnc_MP;
+                    };
+                };
+            };
+
+        if (!_shift) then
+        {
+            if(playerSide == west && vehicle player != player && !life_siren_active && ((driver vehicle player) == player)) then
+            {
+                [] spawn
+                {
+                    life_siren_active = true;
+                    sleep 4.7;
+                    life_siren_active = false;
+                };
+                _veh = vehicle player;
+                if(isNil {_veh getVariable "siren"}) then {_veh setVariable["siren",false,true];};
+                if((_veh getVariable "siren")) then
+                {
+                    titleText ["Sirens Off","PLAIN"];
+                    _veh setVariable["siren",false,true];
+                }
+                    else
+                {
+                    titleText ["Sirens On","PLAIN"];
+                    _veh setVariable["siren",true,true];
+                    [[_veh],"life_fnc_copSiren",nil,true] spawn life_fnc_MP;
+                };
+            };                                            
+        };
+    };
+	
+>>>>>>> parent of e36d613... Update fn_keyHandler.sqf
 	//U Key
 	case 22:
 	{
