@@ -68,7 +68,6 @@ life_fatigue = 0.5;
 life_net_dropped = false;
 life_hit_explosive = false;
 life_siren_active = false;
-life_siren2_active = false;
 life_bank_fail = false;
 life_use_atm = true;
 life_is_arrested = false;

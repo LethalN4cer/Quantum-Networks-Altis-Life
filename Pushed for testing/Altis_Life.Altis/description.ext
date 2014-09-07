@@ -71,7 +71,11 @@ class CfgSounds
 		name = "flashbang";
 		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
 		titles[] = {};
+<<<<<<< HEAD
      };
+=======
+	};
+>>>>>>> parent of 1e2fe6f... Alt Siren
 };
 
 class CfgDebriefing
