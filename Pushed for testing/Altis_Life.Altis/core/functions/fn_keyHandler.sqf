@@ -175,10 +175,6 @@ switch (_code) do
 	
 	//F Key
 	case 33:
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> parent of 1e2fe6f... Alt Siren
 	{
 		if(playerSide in [west,independent] && vehicle player != player && !life_siren_active && ((driver vehicle player) == player)) then
 		{
@@ -208,8 +204,6 @@ switch (_code) do
 			};
 		};
 	};
-<<<<<<< HEAD
-=======
         {    if(_shift) then
             {
                 if(playerSide == west && vehicle player != player && !life_siren2_active && ((driver vehicle player) == player)) then
@@ -263,9 +257,6 @@ switch (_code) do
         };
     };
 	
->>>>>>> parent of e36d613... Update fn_keyHandler.sqf
-=======
->>>>>>> parent of 1e2fe6f... Alt Siren
 	//U Key
 	case 22:
 	{
