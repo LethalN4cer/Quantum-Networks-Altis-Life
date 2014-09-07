@@ -23,23 +23,23 @@ switch (typeOf _vehicle) do
 {
 	case "C_Offroad_01_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.52]];
+		_lightleft lightAttachObject [_vehicle, [-0.37, 0.0, 0.56]];
 	};
 	
 	case "B_MRAP_01_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [-1, -0.75, 0.55]];
+		_lightleft lightAttachObject [_vehicle, [-0.37, -1.9, 0.7]];
 	};
 	
 	case "C_SUV_01_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [-0.38,-2.2,0.55]];
+		_lightleft lightAttachObject [_vehicle, [-0.37,-1.2,0.42]];
 	};
 };
 
 _lightleft setLightAttenuation [0.181, 0, 1000, 130]; 
 _lightleft setLightIntensity 10;
-_lightleft setLightFlareSize 0.40;
+_lightleft setLightFlareSize 0.38;
 _lightleft setLightFlareMaxDistance 150;
 _lightleft setLightUseFlare true;
 
@@ -53,23 +53,23 @@ switch (typeOf _vehicle) do
 {
 	case "C_Offroad_01_F":
 	{
-		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.52]];
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
 	};
 	
 	case "B_MRAP_01_F":
 	{
-		_lightright lightAttachObject [_vehicle, [1, -0.75, 0.55]];
+		_lightright lightAttachObject [_vehicle, [0.37, -1.9, 0.7]];
 	};
 	
 	case "C_SUV_01_F":
 	{
-		_lightright lightAttachObject [_vehicle, [0.38,-2.2,0.55]];
+		_lightright lightAttachObject [_vehicle, [0.37,-1.2,0.42]];
 	};
 };
   
 _lightright setLightAttenuation [0.181, 0, 1000, 130]; 
 _lightright setLightIntensity 10;
-_lightright setLightFlareSize 0.40;
+_lightright setLightFlareSize 0.38;
 _lightright setLightFlareMaxDistance 150;
 _lightright setLightUseFlare true;
 
