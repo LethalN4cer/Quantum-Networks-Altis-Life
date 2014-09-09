@@ -1,6 +1,7 @@
 author = "Tonic";
 onLoadName = "Altis Life RPG v3.1.4.6";
-onLoadMission = "A RPG game mode developed by Tonic";
+onLoadMission = "A RPG game mode developed by Tonic and Lethal N4cer. Server Admins: Diodenerd, QuantumCreature, Casey";
+Loading screen = "quantum network logo.jpg";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;
