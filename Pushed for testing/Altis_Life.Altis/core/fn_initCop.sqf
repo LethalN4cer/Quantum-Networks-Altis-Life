@@ -29,11 +29,7 @@ if(!(str(player) in ["cop_1","cop_2","cop_3","cop_4"])) then {
         {
                 waitUntil {uniform player == "U_B_CombatUniform_mcam_tshirt"};
 <<<<<<< HEAD
-<<<<<<< HEAD
                 player setObjectTextureGlobal [player,0,"textures\swat_shirt.paa"];
-=======
-                player setObjectTextureGlobal [0,"swat_shirt.paa"];
->>>>>>> parent of 7a882a6... lights and skin
 =======
                 player setObjectTextureGlobal [0,"swat_shirt.paa"];
 >>>>>>> parent of 7a882a6... lights and skin
