@@ -1,6 +1,7 @@
 author = "Tonic";
 onLoadName = "Altis Life RPG v3.1.4.6";
-onLoadMission = "A RPG game mode developed by Tonic";
+onLoadMission = "A RPG game mode developed by Tonic and Lethal N4cer. Server Admins: Diodenerd, QuantumCreature, Casey";
+Loadscreen = "quantum network logo.jpg";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;
@@ -55,15 +56,15 @@ class CfgSounds
 	};
 	class car_lock
     	{
-        name = "car_lock";
- 	sound[] = {"\sounds\car_lock.ogg", 1.0, 1};
-    	titles[] = {};
+        	name = "car_lock";
+ 		sound[] = {"\sounds\car_lock.ogg", 1.0, 1};
+    		titles[] = {};
   	};
     	class unlock
   	{
-    	name = "unlock";
-    	sound[] = {"\sounds\unlock.ogg", 1.0, 1};
-    	titles[] = {};
+    		name = "unlock";
+    		sound[] = {"\sounds\unlock.ogg", 1.0, 1};
+    		titles[] = {};
      };
 	
 	class flashbang
@@ -71,14 +72,7 @@ class CfgSounds
 		name = "flashbang";
 		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
 		titles[] = {};
-	};
-	
-	Class siren2
-	{
-       name = "Yelp";
-       sound[] = {"\sounds\Yelp.ogg", 1.0, 1};
-       titles[] = {};
-    };
+     };
 };
 
 class CfgDebriefing

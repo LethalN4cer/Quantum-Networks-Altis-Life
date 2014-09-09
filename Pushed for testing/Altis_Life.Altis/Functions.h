@@ -228,6 +228,7 @@ class Life_Client_Core
 		class loadGear {};
 		class stripDownPlayer {};
 		class fatigueReset {}; 
+		class autoSave {};
 	};
 	
 	class Network
@@ -302,7 +303,6 @@ class Life_Client_Core
 		class fedCamDisplay {};
 		class copLoadout {};
 		class ticketPaid {};
-		class copSiren2 {};
 	};
 	
 	class Gangs

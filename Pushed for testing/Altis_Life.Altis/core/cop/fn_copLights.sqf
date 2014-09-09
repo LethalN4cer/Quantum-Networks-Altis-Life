@@ -17,7 +17,7 @@ _lightleft = "#lightpoint" createVehicle getpos _vehicle;
 sleep 0.2;
 _lightleft setLightColor _lightRed; 
 _lightleft setLightBrightness 0.2;  
-_lightleft setLightAmbient [0.1,0.1,1];
+_lightleft setLightAmbient [20, 0.1, 0.1];
 
 switch (typeOf _vehicle) do
 {
@@ -28,26 +28,26 @@ switch (typeOf _vehicle) do
 	
 	case "B_MRAP_01_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [-1, -0.75, 0.55]];
+		_lightleft lightAttachObject [_vehicle, [-0.50,1.5,-0.68]];
 	};
 	
 	case "C_SUV_01_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [-0.38,-2.2,0.55]];
+		_lightleft lightAttachObject [_vehicle, [-0.38,2.2,-0.55]];
 	};
 };
 
-_lightleft setLightAttenuation [0.181, 0, 1000, 130]; 
-_lightleft setLightIntensity 10;
-_lightleft setLightFlareSize 0.40;
-_lightleft setLightFlareMaxDistance 150;
+_lightleft setLightAttenuation [0.1, 0, 1000, 130]; 
+_lightleft setLightIntensity 8;
+_lightleft setLightFlareSize 0.38;
+_lightleft setLightFlareMaxDistance 120;
 _lightleft setLightUseFlare true;
 
 _lightright = "#lightpoint" createVehicle getpos _vehicle;   
 sleep 0.2;
 _lightright setLightColor _lightBlue; 
 _lightright setLightBrightness 0.2;  
-_lightright setLightAmbient [0.1,0.1,1]; 
+_lightright setLightAmbient [0.1, 0.1, 20]; 
 
 switch (typeOf _vehicle) do
 {
@@ -58,19 +58,19 @@ switch (typeOf _vehicle) do
 	
 	case "B_MRAP_01_F":
 	{
-		_lightright lightAttachObject [_vehicle, [1, -0.75, 0.55]];
+		_lightright lightAttachObject [_vehicle, [0.50,1.5,-0.68]];
 	};
 	
 	case "C_SUV_01_F":
 	{
-		_lightright lightAttachObject [_vehicle, [0.38,-2.2,0.55]];
+		_lightright lightAttachObject [_vehicle, [0.38,2.2,-0.55]];
 	};
 };
   
-_lightright setLightAttenuation [0.181, 0, 1000, 130]; 
-_lightright setLightIntensity 10;
-_lightright setLightFlareSize 0.40;
-_lightright setLightFlareMaxDistance 150;
+_lightright setLightAttenuation [0.1, 0, 1000, 130]; 
+_lightright setLightIntensity 8;
+_lightright setLightFlareSize 0.38;
+_lightright setLightFlareMaxDistance 120;
 _lightright setLightUseFlare true;
 
 //ARE YOU ALL HAPPY?!?!?!?!?!?!?!?!?%#?@WGD?TGD?BN?ZDHBFD?GA
