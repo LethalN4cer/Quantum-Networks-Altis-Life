@@ -28,7 +28,7 @@ switch (typeOf _vehicle) do
 	
 	case "B_MRAP_01_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [-1, -2.8, 0.55]];
+		_lightleft lightAttachObject [_vehicle, [-1, -2.8, 0.55]], [_vehicle, [-2, -2.8, 0.55]];
 	};
 	
 	case "B_MRAP_01_F":
@@ -68,7 +68,7 @@ switch (typeOf _vehicle) do
 
 	case "B_MRAP_01_F":
 	{
-		_lightright lightAttachObject [_vehicle, [2, -2.8, 0.55]];
+		_lightright lightAttachObject [_vehicle, [2, -2.8, 0.55]], [_vehicle, [-2, -2.8, 0.55]];
 	};
 
 	case "C_SUV_01_F":
