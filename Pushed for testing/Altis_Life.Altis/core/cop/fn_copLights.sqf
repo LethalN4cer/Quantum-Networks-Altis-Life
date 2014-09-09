@@ -28,18 +28,18 @@ switch (typeOf _vehicle) do
 	
 	case "B_MRAP_01_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [-0.37, -1.9, 0.7]];
+		_lightleft lightAttachObject [_vehicle, [-1, -0.75, 0.55]];
 	};
 	
 	case "C_SUV_01_F":
 	{
-		_lightleft lightAttachObject [_vehicle, [-0.37,-1.2,0.42]];
+		_lightleft lightAttachObject [_vehicle, [-1,-2.2,0.42]];
 	};
 };
 
 _lightleft setLightAttenuation [0.181, 0, 1000, 130]; 
 _lightleft setLightIntensity 10;
-_lightleft setLightFlareSize 0.38;
+_lightleft setLightFlareSize 0.40;
 _lightleft setLightFlareMaxDistance 150;
 _lightleft setLightUseFlare true;
 
@@ -63,7 +63,7 @@ switch (typeOf _vehicle) do
 	
 	case "C_SUV_01_F":
 	{
-		_lightright lightAttachObject [_vehicle, [-2,-2.2,-0.42]];
+		_lightright lightAttachObject [_vehicle, [-1,-2.2,0.42]];
 	};
 };
   
