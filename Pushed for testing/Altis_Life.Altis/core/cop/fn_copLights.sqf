@@ -53,12 +53,20 @@ switch (typeOf _vehicle) do
 {
 	case "C_Offroad_01_F":
 	{
+<<<<<<< HEAD
 		_lightright lightAttachObject [_vehicle, [-0.37, 0.0, 0.56];
+=======
+		_lightright lightAttachObject [_vehicle, [0.37, 0.0, 0.56]];
+>>>>>>> parent of 7a882a6... lights and skin
 	};
 	
 	case "B_MRAP_01_F":
 	{
+<<<<<<< HEAD
 		_lightright lightAttachObject [_vehicle, [-1, -0.75, 0.55]];
+=======
+		_lightright lightAttachObject [_vehicle, [0.37, -1.9, 0.7]];
+>>>>>>> parent of 7a882a6... lights and skin
 	};
 	
 	case "C_SUV_01_F":
