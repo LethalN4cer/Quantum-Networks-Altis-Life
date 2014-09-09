@@ -41,7 +41,7 @@ __CONST__(life_revive_cops,TRUE); //Set to false if you don't want cops to be ab
 __CONST__(life_revive_fee,1000); //Fee for players to pay when revived.
 
 //House Limit
-__CONST__(life_houseLimit,5); //Maximum amount of houses a player can buy (TODO: Make Tiered licenses).
+__CONST__(life_houseLimit,3); //Maximum amount of houses a player can buy (TODO: Make Tiered licenses).
 
 //Gang related stuff?
 __CONST__(life_gangPrice,10000); //Price for creating a gang (They're all persistent so keep it high to avoid 345345345 gangs).
@@ -90,7 +90,7 @@ switch (playerSide) do
 	case west: 
 	{
 		life_atmcash = 500000; //Starting Bank Money
-		life_paycheck = 3000; //Paycheck Amount
+		life_paycheck = 5000; //Paycheck Amount
 	};
 	case civilian: 
 	{
