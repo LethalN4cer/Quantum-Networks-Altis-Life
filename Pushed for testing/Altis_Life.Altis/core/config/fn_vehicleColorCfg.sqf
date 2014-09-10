@@ -153,8 +153,7 @@ switch (_vehicle) do
 		_ret = 
 		[
 			["\A3\Soft_F\MRAP_01\Data\mrap_01_base_co.paa","cop"],
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"],
-			["textures\altis_police_hunter.paa","cop"]
+			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"]
 		];
 	};
 	
