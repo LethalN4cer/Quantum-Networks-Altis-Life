@@ -25,7 +25,6 @@ switch (_vehicle) do
 			case 6: {_color = "Black"};
 			case 7: {_color = "Black"};
 			case 8: {_color = "Taxi"};
-			case 9: {_color = "cop"};
 		};
 	};
 	
@@ -153,8 +152,6 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Regular"};
 			case 1: {_color = "Black"};
-			case 2: {_color = "Swat"};
-			case 2: {_color = "Fed"};
 		};
 	};
 	
