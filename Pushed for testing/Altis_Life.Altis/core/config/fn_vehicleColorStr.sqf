@@ -152,6 +152,7 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Regular"};
 			case 1: {_color = "Black"};
+			case 1: {_color = "police"};
 		};
 	};
 	
