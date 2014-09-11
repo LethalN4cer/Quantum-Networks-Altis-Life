@@ -37,8 +37,19 @@ if(__GETC__(life_adminlevel) < 1) then
 	ctrlShow[2021,false];
 };
 
-case west: 
+    case west: 
 	{
 		ctrlShow[2011,false];
         ctrlShow[9800,false];
 	};
+	
+	case civilian:
+    {
+        ctrlShow[2495,false];
+        
+        if(player == civ && license_civ_bountyh) then
+        {
+            ctrlShow[2012,false];
+            ctrlShow[9800,false];
+        };
+    };
