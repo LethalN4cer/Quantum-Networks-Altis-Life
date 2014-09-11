@@ -15,7 +15,7 @@ _blacklist = [1] call life_fnc_seizeCfg;
 
 _itemArray = life_gear;
 if(count _itemArray == 0) exitWith {
-	[[52, player, format["%1 Hat keine Waffen bei sich.", name cursorTarget]],"TON_fnc_logIt",false,false] spawn life_fnc_MP;
+	[[52, player, format["%1 Has no weapons.", name cursorTarget]],"TON_fnc_logIt",false,false] spawn life_fnc_MP;
 };
 
 _uniform = [_itemArray,0,"",[""]] call BIS_fnc_param;
@@ -45,4 +45,4 @@ if(_seco in _blacklist) then { _seco = ""; };
 life_gear = [_uniform,_vest,_backpack,_goggles,_headgear,_items,_prim,_seco,_uItems,_uMags,_bItems,_bMags,_vItems,_vMags,_pItems,_hItems,_yItems];
 
 [] call life_fnc_loadGear;
-titleText["Ihre Waffen und Magazine wurden entfernt.","PLAIN"];
+titleText["Weapons and magazines were removed.","PLAIN"];
