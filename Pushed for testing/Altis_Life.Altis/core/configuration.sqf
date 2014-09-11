@@ -31,7 +31,8 @@ life_respawned = false;
 life_removeWanted = false;
 life_god = false; 
 life_frozen = false; 
-life_markers = false; 
+life_markers = false;
+Life_request_timer = false; 
 //Persistent Saving
 __CONST__(life_save_civ,TRUE); //Save weapons for civs?
 __CONST__(life_save_yinv,TRUE); //Save Y-Inventory for players?
