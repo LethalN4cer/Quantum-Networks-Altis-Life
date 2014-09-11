@@ -9,6 +9,6 @@ if(isNil "_unit") exitWith {ctrlShow[2001,true];};
 //if(_unit == player) exitWith {ctrlShow[2001,true];};
 if(isNull _unit) exitWith {ctrlShow[2001,true];};
 
-[[1,format["After %1 is now , he looks.",name _unit,_amount,getPlayerUID _unit]],"life_fnc_broadcast",west,false] spawn life_fnc_MP;
+[[1,format[" %1 Was Added to the wanted list.",name _unit,_amount,getPlayerUID _unit]],"life_fnc_broadcast",west,false] spawn life_fnc_MP;
 
 [[getPlayerUID _unit,name _unit,_amount],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
