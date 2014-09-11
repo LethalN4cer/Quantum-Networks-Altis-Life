@@ -47,3 +47,12 @@ if(_container isKindOf "Man" && !alive _container) exitWith {
 		closeDialog 0;
 	};
 };
+if(_container isKindOf "Car" || _container isKindOf "Ship" || _container isKindOf "Air") exitWith {
+	if(!(_container in life_vehicles) && {(locked _container) == 2}) exitWith {
+	    hint "You're not allowed to open the vehicles inventory while it's locked.";
+	    [] spawn {
+	    waitUntil {!isNull (findDisplay 602)};
+	    closeDialog 0;
+	    };
+    };
+};
