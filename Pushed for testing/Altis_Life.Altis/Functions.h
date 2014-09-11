@@ -153,6 +153,7 @@ class Life_Client_Core
 		class weaponShopCfg {};
 		class vehicleWeightCfg {};
 		class houseConfig {};
+		class seizeCfg {};
 		
 		//Clothing Store Configs
 		class clothing_cop {};
@@ -160,6 +161,7 @@ class Life_Client_Core
 		class clothing_reb {};
 		class clothing_dive {};
 		class clothing_kart {};
+		
 	};
 
 	class Player_Menu
@@ -303,6 +305,8 @@ class Life_Client_Core
 		class fedCamDisplay {};
 		class copLoadout {};
 		class ticketPaid {};
+	    class seizePlayerWeapon {};
+	    class seizePlayerWeaponAction {};
 	};
 	
 	class Gangs
@@ -385,21 +389,4 @@ class Life_Client_Core
 		class gangDeposit {};
 		
 	};
-	
-	class Config
-    {
-	    file = "core\config";
-	    // ...
-	    class seizeCfg {};
-	    // ...
-    };
-
-    class Cop
-   {
-	   file = "core\cop";
-	   // ...
-	   class seizePlayerWeapon {};
-	   class seizePlayerWeaponAction {};
-	   // ...
-    };
 };
