@@ -20,3 +20,5 @@ onPlayerDisconnected { [_id, _name, _uid] call compile preProcessFileLineNumbers
 
 // Init automatically saving gear
 [] spawn life_fnc_autoSave;
+
+fn_whoDunnit = compile preprocessFileLineNumbers "scripts\fn_whoDunnit.sqf";
