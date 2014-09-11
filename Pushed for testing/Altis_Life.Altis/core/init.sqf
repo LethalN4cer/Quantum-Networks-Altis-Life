@@ -99,5 +99,11 @@ life_fnc_moveIn = compileFinal
 // Init automatically saving gear
 [] spawn life_fnc_autoSave;
 
+//Illegal markers
+illegalmarkers = ["cocaine processing","cocaine_1","heroin_1","heroin_area","heroin_p","Weed_p_1","weed_1"];
+if (playerSide == west) then {
+{ deleteMarkerLocal _x; } forEach illegalmarkers ;
+};
+
 __CONST__(life_paycheck,life_paycheck); //Make the paycheck static.
 [] spawn life_fnc_fatigueReset;
