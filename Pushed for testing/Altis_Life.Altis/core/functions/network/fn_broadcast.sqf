@@ -19,6 +19,7 @@ if(typeName _type == typeName []) then
 			case 0: {systemChat _message};
 			case 1: {hint format["%1", _message]};
 			case 2: {titleText[format["%1",_message],"PLAIN"];};
+			case 3: {diag_log format["%1", _message]}; //I added this
 		};
 	};
 }
@@ -29,5 +30,6 @@ if(typeName _type == typeName []) then
 		case 0: {systemChat _message};
 		case 1: {hint format["%1", _message]};
 		case 2: {titleText[format["%1",_message],"PLAIN"];};
+		case 3: {diag_log format["%1", _message]}; //And this.
 	};
 };
