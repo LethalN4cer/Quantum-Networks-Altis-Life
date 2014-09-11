@@ -385,4 +385,21 @@ class Life_Client_Core
 		class gangDeposit {};
 		
 	};
+	
+	class Config
+    {
+	    file = "core\config";
+	    // ...
+	    class seizeCfg {};
+	    // ...
+    };
+
+    class Cop
+   {
+	   file = "core\cop";
+	   // ...
+	   class seizePlayerWeapon {};
+	   class seizePlayerWeaponAction {};
+	   // ...
+    };
 };
