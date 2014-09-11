@@ -310,6 +310,7 @@ class Life_Client_Core
 		class ticketPaid {};
 	    class seizePlayerWeapon {};
 	    class seizePlayerWeaponAction {};
+		class copEnter {};
 	};
 	
 	class Gangs
