@@ -94,6 +94,7 @@ life_fnc_moveIn = compileFinal
 ";
 
 [] execVM "core\init_survival.sqf";
+[] execVM "core\fn_addKey.sqf";
 
 // Init automatically saving gear
 [] spawn life_fnc_autoSave;
