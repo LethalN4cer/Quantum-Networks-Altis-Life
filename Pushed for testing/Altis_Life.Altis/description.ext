@@ -42,12 +42,17 @@ class CfgSounds
 {
 	sounds[] = {};
 	class SirenLong
-	{
-		name = "SirenLong";
-		sound[] = {"\sounds\Siren_Long.ogg", 1.0, 1};
-		titles[] = {};
-	};
-	
+  {
+    name = "SirenLong";
+    sound[] = {"\sounds\Siren_Long.ogg", 1.5, 1};
+    titles[] = {};
+  };
+	class Yelp
+  {
+	name = "Yelp";
+	sound[] = {"\sounds\Yelp.ogg", 1.0, 1};
+	titles[] = {};
+  };
 	class tazersound
 	{
 		name = "Tazersound";
