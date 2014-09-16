@@ -22,3 +22,12 @@ onPlayerDisconnected { [_id, _name, _uid] call compile preProcessFileLineNumbers
 [] spawn life_fnc_autoSave;
 
 fn_whoDunnit = compile preprocessFileLineNumbers "scripts\fn_whoDunnit.sqf";
+
+MAC_fnc_switchMove = {
+    private["_object","_anim"];
+    _object = _this select 0;
+    _anim = _this select 1;
+
+    _object switchMove _anim;
+    
+};
