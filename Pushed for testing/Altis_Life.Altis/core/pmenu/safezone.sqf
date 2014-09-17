@@ -8,8 +8,8 @@
     Edit the #defines below.
 */
 
-#define SAFETY_ZONES    [["Safe_Kavala", 35]] // Syntax: [["marker1", radius1], ["marker2", radius2], ...]
-#define MESSAGE "Shooting In Kavala Square Is Blocked, Repeated Attempts Result In Kicks"
+SAFETY_ZONES    [["Safe_Kavala", 35]] // Syntax: [["marker1", radius1], ["marker2", radius2], ...]
+MESSAGE "Shooting In Kavala Square Is Blocked, Repeated Attempts Result In Kicks!"
 
      if (isDedicated) exitWith {};
      waitUntil {!isNull player};

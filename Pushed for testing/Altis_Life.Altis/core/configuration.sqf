@@ -376,3 +376,11 @@ life_garage_sell =
 	["B_MRAP_01_F",10000]
 ];
 __CONST__(life_garage_sell,life_garage_sell);
+
+/* Safe Zones
+["markername", safe_radius] */
+life_safe_points =
+	[
+		["Kavala", 3848],
+	];
+__CONST__(life_safe_points,life_safe_points);
