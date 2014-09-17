@@ -93,12 +93,6 @@ switch (_shop) do
 		{
 			_return set[count _return,
 			["B_MRAP_01_F",30000]];
-			if(__GETC__(life_coplevel) > 5) then
-		{
-		_return set[count _return,
-			["B_APC_Wheeled_01_cannon_F",300000]];
-			_return set[count _return,
-			["B_MRAP_01_hmg_F",200000]];
 		};
 	};
 	
