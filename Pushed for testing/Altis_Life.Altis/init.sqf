@@ -11,6 +11,7 @@ enableSaving[false,false];
 life_versionInfo = "Altis Life RPG v3.1.4.5";
 [] execVM "briefing.sqf"; //Load Briefing
 [] execVM "KRON_Strings.sqf";
+[] execVM "safezone.sqf";
 
 StartProgress = true;
 
@@ -29,5 +30,5 @@ MAC_fnc_switchMove = {
     _anim = _this select 1;
 
     _object switchMove _anim;
-    
+	
 };
